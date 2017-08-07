@@ -1,0 +1,31 @@
+body {
+	background: #ffa2a2;
+}
+.blue-header {
+	background: #729fcf !important;
+	height: auto;
+	padding: 10px;
+	width: auto;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.blue-nav {
+	padding: 10px;
+	background: #000000;
+	font-sze: 18pt;
+	width: auto;
+}
+.nav-tabs {
+	border-bottom: 0px !important;
+}
+.blue-footer {
+	 background: #729fcf;
+	 text-align: center; 
+	 padding: 5px; 
+	 margin-top: 10px;
+}
+.blue-main-content {
+	border-radius: 5px;
+	background: #9fa7ac;
+	color: #2e3436;
+}

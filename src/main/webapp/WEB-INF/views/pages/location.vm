@@ -1,0 +1,13 @@
+<div align="center">
+	<br/>
+	<h4>Stop by and check us out in person!</h4>
+	<br/>
+	<!-- make max-width the same as google map href -->
+	<div class="card" style="max-width: 600;">
+		<img src="https://maps.googleapis.com/maps/api/staticmap?center=Savannah's+Restaurant,Cedar+Hill,MO&zoom=17&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C40.718217,-73.998284&key=AIzaSyD-PEn-yHz-EqoihUtjSmipGyZkaRwSPug" />
+	</div>	
+	<br/><br/>
+	<p>
+	Like what you have seen so far? Why not come out to our location in person and let us know what you think!
+	</p>
+</div>	

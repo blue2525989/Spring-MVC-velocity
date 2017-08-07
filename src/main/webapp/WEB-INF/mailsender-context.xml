@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+  <!-- Empty -->
+    
+  <!-- set default mail properties -->
+  <!-- able to auto wire these to classes -->
+  <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+  	<property name="host" value="smtp.gmail.com"/>
+  	<property name="port" value="25"/>
+  	<property name="username" value=""/>
+  	<property name="password" value=""/>
+  	<property name="javaMailProperties">
+  		<props>
+  			<prop key="mail.transport.protocol">smtp</prop>
+  			<prop key="mail.smtp.auth">true</prop>
+  			<prop key="mail.smtp.starttls.enable">true</prop>
+  			<prop key="mail.debug">true</prop>
+  		</props>
+  	</property>
+  </bean>
+  
+  <!-- google api key for static maps -->
+  
+  <!-- pre-configured message -->
+  <bean id="preConfiguredMessage" class="org.springframework.mail.SimpleMailMessage">
+  	<property name="to" value=""/>
+  	<property name="from" value=""/>
+  	<property name="subject" value="Your application has encountered an error, log in and fix that stuff!!!"/>
+  </bean>
+  
+</beans>

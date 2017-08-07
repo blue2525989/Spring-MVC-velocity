@@ -1,0 +1,26 @@
+<div align="center">
+	<h2>The Menu</h2>
+	
+	<br/><br/>
+	
+	<p>
+	Check out our mouth watering menu below and then come in to try it in person!
+	</p>
+</div>
+<div align="center">
+	#foreach($item in $menuList)
+	<table border="1">
+		<tr>
+			<th>Entree</th>
+			<th>Description</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>$item.name</td>
+			<td>$item.description</td>
+			<td>$$item.price</td>
+		</tr>
+		
+	</table>
+	#end	
+</div>

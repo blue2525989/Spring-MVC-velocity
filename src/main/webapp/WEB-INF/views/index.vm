@@ -1,0 +1,19 @@
+<h1>Welcome to My Resturant's home page!</h1>
+<br/><br/>
+
+<h2>Deparment List</h2>
+	<p>
+	Below is a list of some of the technologies used in this application.
+	</p>
+	<table border="1">
+		<tr>
+			<th>Technology</th>
+			<th>Description</th>
+		</tr>
+		#foreach($tech in $mainList)
+			<tr>
+				<td>$tech.techName</td>
+				<td>$tech.techDescription</td>
+			</tr>
+		#end
+	</table>
